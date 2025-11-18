@@ -218,6 +218,60 @@
     }
 }
 
+/* menu pege */
+@media (max-width: 768px) {
+    body.menu .menu-section {
+        padding: 40px 40px;
+    }
+
+    body.menu .menu-inner {
+        max-width: 100%;
+    }
+
+    body.menu .menu-list {
+        width: 100%;
+    }
+
+    body.menu .menu-list li {
+        padding: 12px 0;
+    }
+
+    body.menu .menu-list li span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:480px) {
+    body.menu .menu-section {
+        padding: 32px 16px;
+    }
+
+    body.menu .menu-list {
+        width: 100%;
+    }
+
+    body.menu .menu-list li {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 4px;
+        padding: 10px 0;
+    }
+
+    body.menu .menu-list li span:first-child {
+        font-size: 14px;
+        line-height: 1.6;
+        flex: 1;
+    }
+
+    body.menu .menu-list li span:last-child {
+        font-size: 14px;
+        white-space: nowrap;
+        margin-left: 8px;
+    }
+}
+
+/* access やり直し */
 @madia (max-width: 768px) {
     .access {
         display: flex;
