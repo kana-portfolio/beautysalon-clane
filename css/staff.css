@@ -1,0 +1,119 @@
+/* staff page */
+body.staff {
+    background: #fdf9d5;
+}
+
+body.staff .pege-hero-staff {
+    padding-block: clamp(72px, 10vw, 104px);
+    background: #fdf9d5;
+}
+
+body.staff .pege-hero-staff .pege-hero-inner {
+    max-width: 1100px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+body.staff .pege-hero-staff .page-title {
+    font-size: clamp(26px, 3vw, 32px);
+    letter-spacing: 0.16em;
+    margin-bottom: 12px;
+}
+
+body.staff .staff-section {
+    padding-block: 40px 96px;
+}
+
+body.staff .staff-section .container {
+    max-width: 1100px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+body.staff .staff-section-title {
+    font-size: 16px;
+    letter-spacing: 0.18em;
+    margin-bottom: 32px;
+}
+
+body.staff .staff-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+body.staff.staff-item {
+    display: flex;
+    gap: 32px;
+    padding: 28px 32px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: var(--shadow-soft)0 18px 40px rgba(0, 0, 0, 0.06);
+    align-items: center;
+    flex-direction: column;
+}
+
+body.staff .staff-thumb {
+    width: 250px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #f5f4f0;
+}
+
+body.staff .staff-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+body.staff .staff-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+body.staff .staff-name {
+    font-size: 18px;
+    letter-spacing: 0.12em;
+    margin-bottom: 4px;
+}
+
+body.staff .staff-role {
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    color: var(--muted);
+    margin-left: 4px;
+}
+
+body.staff .staff-tagline {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+body.staff .staff-comment {
+    font-size: 14px;
+    line-height: 1.9;
+    color: var(--muted);
+}
+
+body.staff .staff-item {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+body.staff .staff-thumb {
+    margin: 0 auto;
+}
+
+body.staff .staff-body {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+}

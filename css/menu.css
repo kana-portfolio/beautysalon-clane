@@ -1,0 +1,130 @@
+/* Top menu */
+.menu {
+    padding: 120px 0;
+    background: #fffaf0;
+}
+
+.menu-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu .section-label,
+.menu .section-title,
+.menu .section-lead {
+    text-align: center;
+}
+
+.menu-grid {
+    margin-top: 56px;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 32px;
+}
+
+.menu-item {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 24px 22px 28px;
+    text-align: center;
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 55px rgba(0, 0, 0, 0.07);
+}
+
+.menu-thumb {
+    margin-bottom: 20px;
+}
+
+.menu-thumb img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.menu-name {
+    font-size: 16px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.menu-desc {
+    font-size: 13px;
+    line-height: 1.9;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.menu-price {
+    font-size: 14px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+}
+
+.menu-btn-wrap {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* menu page */
+body.menu {
+    background: #fdf9d5;
+}
+
+body.menu .menu-main {
+    padding: 80px 0 120px;
+}
+
+body.menu .menu-section {
+    max-width: 900px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+
+body.menu .menu-title {
+    font-size: 26px;
+    letter-spacing: 0.12em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+body.menu .menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 22px 26px;
+    background: #faf7f2;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+body.menu .menu-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body.menu .menu-list li:last-child {
+    border-bottom: none;
+}
+
+body.menu .menu-list li span: :first-child {
+    flex: 1;
+}
+
+body.menu .menu-list .price {
+    min-width: 80px;
+    text-align: right;
+    font-weight: 600;
+    color: #333;
+}
+
