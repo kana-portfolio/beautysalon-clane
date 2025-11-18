@@ -100,16 +100,14 @@
 @media (max-width: 768px) {
     .access {
         flex-direction: column;
-        padding: 40px 40px;
+        padding: 40px 24px;
         gap: 30px;
-    }
-
-    .access-map iframe {
-        height: 250px;
     }
 
     .access-map {
         aspect-ratio: 3 / 4;
+        margin: 0 auto;
+        max-width: 600px;
     }
 
     .access-info {
@@ -119,21 +117,18 @@
 
 @media (max-width: 480px) {
     .access {
-        padding: 30px 20px;
+        padding: 30px 16px;
         gap: 20px;
     }
 
     .access-map {
-        aspect-ratio:  3 / 4;
-    }
-
-    .access-map iframe {
-        height: 200px;
+        aspect-ratio:  4 / 5;
     }
 
     .access-info {
         font-size: 14px;
         line-height: 1.6;
+        text-align: left;
     }
 }
 

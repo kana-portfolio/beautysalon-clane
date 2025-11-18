@@ -214,6 +214,8 @@
 .access {
     padding: 120px 0 140px;
     background: #fffaf0;
+    display: flex;
+    gap: 40px;
 }
 
 .access-inner {
